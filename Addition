@@ -1,16 +1,16 @@
 #include <stdio.h>
+int main()
+{
+  float altura, area, base;
 
-int main(){
+  printf( “Introduzca base: ” );
+  scanf( “%f”, &base );
+  printf( “Introduzca altura: ” );
+  scanf( “%f”, &altura );
 
-  int x;
-  int suma=0;
+  area = base * altura / 2;
 
-  for(int i=1; i<=8; i++)
-  {
-    scanf(“%i”,&x);
-    
-  } 
-  
-printf (“Suma= %i”,suma);
+  printf( “El area del triangulo es: %f”, area );
 
+  return 0;
 }
