@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+
+int i,mayor=0;
+
+do{
+
+printf(“\nNúmero: “);
+
+}while (i!=0);
+
+printf(“\nEl mayor es %i”,mayor);
+
+}
